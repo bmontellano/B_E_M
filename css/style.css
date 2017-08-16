@@ -1117,3 +1117,31 @@ ul.meta-tags li:last-child:after { content: ' ' }
 .comment form { margin-top: -30px }
 .comment input,
 .comment textarea { margin-bottom: 15px }
+
+#intro-p{
+	font-size: 18px !important;
+}
+
+#intro-summary {
+  text-align: center;
+  font-size: 24px;
+}
+
+#resume{
+  background: #a30d03;
+  color: white;
+  font-size: 18px;
+}
+
+.devicon-container img {
+  width: 80px;
+}
+
+#portfolio .section-header {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#portfolio #tf-features {
+  padding: 10px;
+}
