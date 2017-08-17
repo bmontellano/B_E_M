@@ -1145,3 +1145,29 @@ ul.meta-tags li:last-child:after { content: ' ' }
 #portfolio #tf-features {
   padding: 10px;
 }
+
+.section-header span {
+  font-size: 24px;
+}
+
+#contact {
+  padding: 0px;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#portfolio #feature img{
+   max-height: 400px;
+   border-radius: 12%;
+}
+
+#f1 img{
+  width: 400px !important;
+  height: 200px !important;
+}
+
+#tf-about img {
+  border-radius: 15%;
+}
