@@ -429,6 +429,7 @@ ul.social li a.fa:hover { background-color: #333333 }
 .facts .count-box { position: relative }
 .count-box {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     border-left: 1px solid #d3d3d3;
     padding: 40px 0;
     margin: 0;
@@ -468,6 +469,7 @@ ul.social li a.fa:hover { background-color: #333333 }
 .count-box:hover > i.fa { color: #ffffff }
 .count-box:hover {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     background-color: #e5b112;
 }
 .counter i.fa {
@@ -1173,7 +1175,8 @@ ul.meta-tags li:last-child:after { content: ' ' }
 }
 
 /* GIVE PADDING TO IMAGES IN SKILL SECTION */
+/* ONLY DO TOP BOTTOM */
 .col-md-3.text-center.devicon-container{
-    padding: 5px;
+    padding: 10px 0px;
 }
   
