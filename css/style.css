@@ -1171,4 +1171,9 @@ ul.meta-tags li:last-child:after { content: ' ' }
 #tf-about img {
   border-radius: 15%;
 }
+
+/* GIVE PADDING TO IMAGES IN SKILL SECTION */
+.col-md-3.text-center.devicon-container{
+    padding: 5px;
+}
   
