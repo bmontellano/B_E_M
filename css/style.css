@@ -51,7 +51,6 @@ a:focus {
 #tf-menu {
     margin-bottom: 0;
     background-color: #ffffff;
-    padding: 10px 0;
     height: auto;
 }
 .navbar-brand img {
@@ -1179,4 +1178,3 @@ ul.meta-tags li:last-child:after { content: ' ' }
 .col-md-3.text-center.devicon-container{
     padding: 10px 0px;
 }
-  
