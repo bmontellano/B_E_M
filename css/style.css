@@ -1178,3 +1178,17 @@ ul.meta-tags li:last-child:after { content: ' ' }
 .col-md-3.text-center.devicon-container{
     padding: 10px 0px;
 }
+
+.so-faded {
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+    .so-faded {
+      display: block;
+      float: left;
+    }
+    li.hide-name{
+        display: none;
+    }
+}

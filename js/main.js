@@ -147,11 +147,19 @@ function main() {
  
 });
 
- 
-
+$(".top-navy").each(function(){
+  var item = $(this);
+  console.log(item);
+  item.click(function(){
+    console.log("Hi, you clicked me!!");
+  });
+});
 
 }());
-
-
 }
+
+
+
+
+
 main();
