@@ -147,11 +147,9 @@ function main() {
  
 });
 
-$(".top-navy").each(function(){
-  var item = $(this);
-  console.log(item);
-  item.click(function(){
-    console.log("Hi, you clicked me!!");
+$(".top-navy a").each(function(){
+  $(this).on("click",function(){
+    $(".icon-bar").click();
   });
 });
 
